@@ -1,0 +1,34 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm$HS.class, /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm$TakenBy.class, /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm$TakenChopsticks.class, /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm.class, /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm$CS.class, /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm$Hakker.class, /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes/sample/fsm/DiningHakkersOnFsm$Chopstick.class)[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/fsm/DiningHakkersOnFsm.java)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java, /Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/fsm/DiningHakkersOnFsm.java)[0m
+[0m[[0minfo[0m] [0mCompiling 2 Java sources to /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@55454083 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.149927765 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.078085474 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.229591147 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java)[0m
+[0m[[0mdebug[0m] [0mThe /Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	lambda$waitingFor$5, lambda$new$10, lambda$new$13, lambda$new$8, lambda$main$16, lambda$new$11, lambda$waitingFor$6, lambda$new$5, lambda$new$14, lambda$new$9, access$200, lambda$main$17, access$300, access$100, lambda$new$15, access$000, lambda$waitingFor$7, lambda$new$12, lambda$waitingFor$8, lambda$new$16.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: /Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/become/DiningHakkersOnBecome.java[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

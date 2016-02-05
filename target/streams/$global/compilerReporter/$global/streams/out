@@ -1,0 +1,8 @@
+[0m[[31merror[0m] [0m/Users/mahesh.govind/akka-sample-fsm-java-lambda/src/main/java/sample/fsm/DiningHakkersOnFsm.java:106: no suitable method found for matchEventEquals(java.lang.Object,(Object th[...])); })[0m
+[0m[[31merror[0m] [0m    method akka.actor.AbstractFSM.<E,DT>matchEventEquals(E,java.lang.Class<DT>,akka.japi.pf.FI.Apply2<E,DT,akka.actor.FSM.State<sample.fsm.DiningHakkersOnFsm.HS,sample.fsm.DiningHakkersOnFsm.TakenChopsticks>>) is not applicable[0m
+[0m[[31merror[0m] [0m      (cannot infer type-variable(s) E,DT[0m
+[0m[[31merror[0m] [0m        (actual and formal argument lists differ in length))[0m
+[0m[[31merror[0m] [0m    method akka.actor.AbstractFSM.<E>matchEventEquals(E,akka.japi.pf.FI.Apply2<E,sample.fsm.DiningHakkersOnFsm.TakenChopsticks,akka.actor.FSM.State<sample.fsm.DiningHakkersOnFsm.HS,sample.fsm.DiningHakkersOnFsm.TakenChopsticks>>) is not applicable[0m
+[0m[[31merror[0m] [0m      (cannot infer type-variable(s) E[0m
+[0m[[31merror[0m] [0m        (argument mismatch; incompatible parameter types in lambda expression))[0m
+[0m[[31merror[0m] [0mmatchEventEquals[0m

@@ -1,0 +1,378 @@
+[info] Updating {file:/Users/mahesh.govind/akka-sample-fsm-java-lambda/}akka-sample-fsm-java-lambda...
+[debug] :: resolving dependencies :: default#akka-sample-fsm-java-lambda_2.11;2.4.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59f79125
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
+[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.0
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[info] Resolving com.typesafe#config;1.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
+[debug] 	found com.typesafe#config;1.3.0 in sbt-chain
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [runtime]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [test]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [runtime]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->default(compile)]
+[info] Resolving com.typesafe.akka#akka-testkit_2.11;2.4.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.0 {test=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.4.0
+[debug] 	found com.typesafe.akka#akka-testkit_2.11;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->default(compile)]
+[info] Resolving junit#junit;4.11 ...
+[debug] sbt-chain: Checking cache for: dependency: junit#junit;4.11 {test=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: junit#junit;4.11
+[debug] 	found junit#junit;4.11 in sbt-chain
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->compile]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)]
+[info] Resolving org.hamcrest#hamcrest-core;1.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
+[debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->runtime(*)]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->compile]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->default(compile)]
+[info] Resolving com.novocode#junit-interface;0.10 ...
+[debug] sbt-chain: Checking cache for: dependency: com.novocode#junit-interface;0.10 {test=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.10
+[debug] 	found com.novocode#junit-interface;0.10 in sbt-chain
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [compile->master(compile)]
+[info] Resolving junit#junit-dep;4.10 ...
+[debug] sbt-chain: Checking cache for: dependency: junit#junit-dep;4.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: junit#junit-dep;4.10
+[debug] 	found junit#junit-dep;4.10 in sbt-chain
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [compile->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [compile->compile]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [runtime->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
+[info] Resolving org.scala-tools.testing#test-interface;0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5
+[debug] 	found org.scala-tools.testing#test-interface;0.5 in sbt-chain
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [compile->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [runtime->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile-internal]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [optional]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [runtime-internal]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [runtime]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [test-internal]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [test]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [runtime]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->compile]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->junit#junit;4.11 [test->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->default(compile)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [compile->master(compile)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->junit#junit-dep;4.10 [runtime->compile]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit-dep;4.10->org.hamcrest#hamcrest-core;1.3 [runtime->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.10->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->com.novocode#junit-interface;0.10 [test->master]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [optional]
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#akka-sample-fsm-java-lambda_2.11;2.4.0 [scala-tool]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
+[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
+[debug] == resolving dependencies default#akka-sample-fsm-java-lambda_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.0!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.0!akka-testkit_2.11.jar
+[debug] 	[NOT REQUIRED] junit#junit;4.11!junit.jar
+[debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.10!junit-interface.jar
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar
+[debug] 	[NOT REQUIRED] junit#junit-dep;4.10!junit-dep.jar
+[debug] 	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+[debug] :: resolution report :: resolve 293ms :: artifacts dl 13ms
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 compile produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-compile.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 runtime produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-runtime.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 test produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-test.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 provided produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-provided.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 optional produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-optional.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 compile-internal produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-compile-internal.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 runtime-internal produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-runtime-internal.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 test-internal produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-test-internal.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 plugin produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-plugin.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 sources produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-sources.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 docs produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-docs.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 pom produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-pom.xml
+[debug] 	report for default#akka-sample-fsm-java-lambda_2.11;2.4.0 scala-tool produced in /Users/mahesh.govind/akka-sample-fsm-java-lambda/target/resolution-cache/reports/default-akka-sample-fsm-java-lambda_2.11-scala-tool.xml
+[debug] 	resolve done (293ms resolve - 13ms download)
+[info] Done updating.
